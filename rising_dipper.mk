@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+INLINE_KERNEL_BUILDING := true
+
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common risingOS.
